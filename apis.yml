@@ -1,7 +1,17 @@
 aid: athos-therapeutics
 name: Athos Therapeutics
-description: 'Athos Therapeutics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Athos Therapeutics is a clinical-stage biopharmaceutical company in Torrance,
+  California developing precision small-molecule therapeutics for autoimmune and chronic
+  inflammatory diseases, led by co-founder and CEO Dr. Dimitrios Iliopoulos. Its AI/ML
+  discovery platform integrates multi-omic patient data — genomics, transcriptomics,
+  proteomics, epigenomics, metabolomics and microbiomics — collected with global hospital
+  systems to identify novel drug and gene targets, and produced ATH-063, an AI-generated
+  G9A methyltransferase inhibitor advancing in inflammatory bowel disease. The computational
+  side of the business is commercialized through Chiron AI Labs (formerly AthosOmics.AI),
+  a deliberately no-code omics analysis SaaS suite (Athos-Multi, Athos-T, Athos-P, Athos-G,
+  Athos-PM) that is pre-launch and gated behind a demo waitlist. Athos publishes no
+  public API, developer portal, SDK or machine-readable specification.'
+image: https://athostx.com/wp-content/uploads/2020/04/athos-favicon.jpg
 url: https://raw.githubusercontent.com/api-evangelist/athos-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +22,15 @@ created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Life Sciences
+- Drug Discovery
+- Artificial Intelligence
+- Machine Learning
+- Genomics
+- Precision Medicine
+- Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,53 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/athos-therapeutics-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://athostx.com/
+- type: Blog
+  url: https://athostx.com/news-posts/
+- type: BlogRSS
+  url: https://athostx.com/feed/
+- type: Support
+  url: https://athostx.com/contact/
+- type: Careers
+  url: https://athostx.com/careers/
+- type: Team
+  url: https://athostx.com/ourteam/
+- type: Product
+  url: https://chironailabs.com/our-products
+- type: Company
+  url: https://chironailabs.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/athostx
+- type: Twitter
+  url: https://twitter.com/athostx
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Athos is a clinical-stage biotech whose only software product, the Chiron AI Labs
+    omics suite (formerly AthosOmics.AI), is marketed explicitly as "no-code" and is
+    pre-launch behind a demo-waitlist email form; the eight-page athostx.com sitemap
+    contains no developer, docs or API page and every well-known/spec path on both
+    hosts returns 404.
+  evidence:
+  - url: https://athostx.com/page-sitemap.xml
+    status: 200
+  - url: https://athostx.com/openapi.json
+    status: 404
+  - url: https://athostx.com/.well-known/agent-card.json
+    status: 404
+  - url: https://chironailabs.com/openapi.json
+    status: 404
+  - url: https://chironailabs.com/llms.txt
+    status: 404
+  - url: https://api.athostx.com/
+    status: 0
+  checked: '2026-08-06'
