@@ -11,6 +11,17 @@ description: 'Athos Therapeutics is a clinical-stage biopharmaceutical company i
   a deliberately no-code omics analysis SaaS suite (Athos-Multi, Athos-T, Athos-P, Athos-G,
   Athos-PM) that is pre-launch and gated behind a demo waitlist. Athos publishes no
   public API, developer portal, SDK or machine-readable specification.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://athostx.com/wp-content/uploads/2020/04/athos-favicon.jpg
 url: https://raw.githubusercontent.com/api-evangelist/athos-therapeutics/refs/heads/main/apis.yml
 x-type: company
