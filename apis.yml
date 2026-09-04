@@ -22,6 +22,18 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://athostx.com/wp-content/uploads/2020/04/athos-favicon.jpg
 url: https://raw.githubusercontent.com/api-evangelist/athos-therapeutics/refs/heads/main/apis.yml
 x-type: company
