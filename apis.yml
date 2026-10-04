@@ -50,7 +50,7 @@ tags:
 - Life Sciences
 - Drug Discovery
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Genomics
 - Precision Medicine
 - Health
@@ -65,6 +65,7 @@ tags_raw:
 - Genomics
 - Precision Medicine
 - Health
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
